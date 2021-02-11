@@ -28,7 +28,7 @@ int search_elem(struct tree *node, int elem)
         return 0;
     if (elem == node->numb)
         return 1;
-    if (elem < node->numb))
+    if (elem < node->numb)
         return search_elem(node->left, elem);
      else
         return search_elem(node->right, elem);
